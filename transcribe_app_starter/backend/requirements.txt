@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+yt-dlp
+instagrapi
+torch  # required for whisper
+git+https://github.com/m-bain/whisperX#egg=whisper-timestamped
+pydantic
+python-multipart
+redis
+rq
+boto3
+psycopg2-binary
+python-dotenv
