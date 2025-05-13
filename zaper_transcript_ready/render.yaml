@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: zaper-transcript-api
+    env: docker
+    plan: free
+  - type: worker
+    name: zaper-transcript-worker
+    env: docker
+    plan: free
+    startCommand: python -m app.worker
